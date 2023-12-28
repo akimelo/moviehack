@@ -28,6 +28,9 @@ struct ContentView: View {
 struct SubView: View {
     var body: some View {
         Text("Hi. This is Subview.").font(.largeTitle)
+        NavigationLink(destination: SecondView()) {
+            Label("Go to SecondView", systemImage: "message")
+        }
     }
 }
 
