@@ -27,7 +27,7 @@ struct ContentView: View {
 
 struct SubView: View {
     var body: some View {
-        Text("Subview").font(.largeTitle)
+        Text("Hi. This is Subview.").font(.largeTitle)
     }
 }
 
