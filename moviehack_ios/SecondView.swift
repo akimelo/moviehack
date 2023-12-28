@@ -10,6 +10,9 @@ import SwiftUI
 struct SecondView: View {
     var body: some View {
         Text("This is the SecondView. Soso.")
+        NavigationLink(destination: ThirdView()) {
+            Label("Go to ThirdView", systemImage: "message")
+        }
     }
 }
 
