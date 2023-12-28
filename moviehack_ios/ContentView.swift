@@ -9,6 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView {
+            NavigationLink(destination: SubView()) {
+                Label("Go to Subview", systemImage: "message")
+            }
+            .navigationTitle("Home")
+        }.navigationViewStyle(.stack)
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -16,6 +22,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+    }
+}
+
+struct SubView: View {
+    var body: some View {
+        Text("Subview").font(.largeTitle)
     }
 }
 

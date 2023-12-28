@@ -11,6 +11,7 @@
 		D2C6F4342B3C7EE00077BE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F4332B3C7EE00077BE46 /* ContentView.swift */; };
 		D2C6F4362B3C7EE10077BE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C6F4352B3C7EE10077BE46 /* Assets.xcassets */; };
 		D2C6F4392B3C7EE10077BE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C6F4382B3C7EE10077BE46 /* Preview Assets.xcassets */; };
+		D2C6F4402B3DA23D0077BE46 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6F43F2B3DA23D0077BE46 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D2C6F4332B3C7EE00077BE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2C6F4352B3C7EE10077BE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C6F4382B3C7EE10077BE46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2C6F43F2B3DA23D0077BE46 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D2C6F4312B3C7EE00077BE46 /* moviehack_iosApp.swift */,
 				D2C6F4332B3C7EE00077BE46 /* ContentView.swift */,
+				D2C6F43F2B3DA23D0077BE46 /* SecondView.swift */,
 				D2C6F4352B3C7EE10077BE46 /* Assets.xcassets */,
 				D2C6F4372B3C7EE10077BE46 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C6F4402B3DA23D0077BE46 /* SecondView.swift in Sources */,
 				D2C6F4342B3C7EE00077BE46 /* ContentView.swift in Sources */,
 				D2C6F4322B3C7EE00077BE46 /* moviehack_iosApp.swift in Sources */,
 			);
